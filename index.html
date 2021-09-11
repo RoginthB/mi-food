@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Mi food --developed by roginth</title>
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- nav bar  -->
+        <div class=" shadow-lg sticky top-0 bg-gray-50 " style="z-index: 100;">
+            <div class="container  py-3 pl-12 flex mx-auto">
+                <div class=" w-full lg:w-1/2">
+                    <h2 class="text-lg  font-bold text-grey-600 p-2">
+                        Mi F<span class="text-lg font-bold text-green-500 ">oo</span>d
+                    </h2>
+                </div>
+                <div class=" wfull lg:w-1/2 lg:flex my-auto ">
+                    <a href="#" class="font-semibold hidden md:hidden lg:block text-sm text-green-700 p-2">Foods</a>
+                    <a href="#"
+                       class="font-semibold hidden md:hidden lg:block text-sm text-grey-600 hover:text-green-700 p-2">Drinks</a>
+                    <a href="#"
+                       class="font-semibold hidden md:hidden lg:block text-sm text-grey-600 hover:text-green-700 p-2">Daily
+                    </a>
+                    <a href="#"
+                       class="font-semibold hidden md:hidden lg:block text-sm text-grey-600 hover:text-green-700 p-2">Restaurants</a>
+                    <a href="#"
+                       class="font-semibold hidden md:hidden lg:block text-sm text-grey-600 hover:text-green-700 p-2">Stories</a>
+                    <a href="#"
+                       class="font-semibold hidden md:hidden lg:block text-sm text-grey-600 hover:text-green-700 p-2">Videos</a>
+                    <a href="#"
+                       class="font-semibold hidden md:hidden lg:block text-sm text-grey-600 hover:text-green-700 p-2">Contact</a>
+                    <div class="grid grid-cols-3 gap-4 my-auto cursor-pointer">
+                        <div class="px-3 text-grey-600 hover:text-green-700 ">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
+                                 viewBox="0 0 24 24"
+                                 stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                            </svg>
+                        </div>
+                        <div class="px-3 text-grey-600 hover:text-green-700 ">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none"
+                                 viewBox="0 0 24 24"
+                                 stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                            </svg>
+                        </div>
+                        <div class="px-3 text-grey-600 hover:text-green-700">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24"
+                                 stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                      d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- home section -->
+        <section class="" id="home">
+            <div class="">
+                <div class="lg:flex">
+                    <div class="w-full lg:w-1/2">
+                        <div class="p-24">
+                            <h1 class="text-5xl font-extrabold">
+                                Your favourite food delivered hot & fresh
+                            </h1>
+                            <p class="text-gray-400 p-2 my-5">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A fugit et eius dolore itaque
+                                ad
+                                perferendis hic assumenda voluptas quibusdam, culpa veniam eligendi facere animi
+                                tenetur,
+                                illum saepe, sint tempora.
+                            </p>
+                            <a href="#"
+                               class="bg-green-500 hover:bg-green-700 py-3 px-7 my-5 font-semibold text-gray-50 rounded-3xl">Explore
+                                all</a>
+                        </div>
+                    </div>
+                    <div class=" w-1/2  ">
+                        <img class="w-full mt-1  hidden lg:block"
+                             src="https://images.pexels.com/photos/2664216/pexels-photo-2664216.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                             alt="">
+                    </div>
+                </div>
+                <div class="sticky top-48px">
+                    <div class="container mx-auto p-5  rounded shadow-lg bg-green-50 font-semibold text-green-500">
+
+                        <div class="flex justify-start justify-items-center">
+                            <input type="text" placeholder="Name, address, cusine "
+                                   class="rounded w-1/4 form-input text-gray-50 border border-green-300 active:border-green-500 p-2" />
+                            <div class="text-gray-900 hover:text-green-700 my-auto p-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                                     viewBox="0 0 24 24"
+                                     stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                          d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                                </svg>
+                            </div>
+                            <p class="text-gray-900 text-xs  pl-5 my-auto font-semibold p-2">
+                                Trending
+                            </p>
+
+                            <div class="flex w-1/4 mx-auto">
+                                <a href="#"
+                                   class="bg-gray-50 hidden lg:block border border-green-100 hover:border-green-500  rounded-3xl ml-3 my-auto px-5 py-2 text-xs hover:text-green-500 text-green-300 font-semibold">All</a>
+                                <a href="#"
+                                   class="bg-gray-50 block border border-green-500 hover:border-green-100 rounded-3xl ml-3 my-auto px-5 py-2 text-xs text-green-500 hover:text-green-300 font-semibold">Featured</a>
+                                <a href="#"
+                                   class="bg-gray-50 hidden lg:block border border-green-100 hover:border-green-500 rounded-3xl ml-3 my-auto px-5 py-2 text-xs text-green-300 hover:text-green-500 font-semibold">Quick</a>
+                                <a href="#"
+                                   class="bg-gray-50 hidden lg:block border border-green-100 hover:border-green-500 rounded-3xl ml-3 my-auto px-5 py-2 text-xs text-green-300 hover:text-green-500 font-semibold">Vagan</a>
+                                <a href="#"
+                                   class="bg-gray-50 hidden lg:block border border-green-100 hover:border-green-500 rounded-3xl ml-3 my-auto px-5 py-2 text-xs text-green-300 hover:text-green-500 font-semibold">Healthy</a>
+                                <a href="#"
+                                   class="bg-gray-50 hidden lg:block border border-green-100 hover:border-green-500 rounded-3xl ml-3 my-auto px-5 py-2 text-xs text-green-300 hover:text-green-500 font-semibold">Premium</a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- daily foods sections -->
+        <section>
+            <div class="container mx-auto py-12">
+                <h1 class="text-gray-900 text-2xl font-semibold p-12">Dish of the day</h1>
+                <div class="grid grid-row md:grid-cols-2 lg:grid-cols-4 gap-4 px-12">
+                    <div class=" rounded-xl shadow-lg bg-gray-50 border border-gray-200 ">
+                        <img src="https://images.pexels.com/photos/1095550/pexels-photo-1095550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                             class=" rounded-t-xl" alt="">
+                        <div class="p-3">
+                            <h1 class="text-lg font-semibold py-1">
+                                Featured meal
+                            </h1>
+                            <p class="text-gray-300 text-sm py-1">
+                                Served with french fries + drink
+                            </p>
+                            <p class="text-gray-500  text-sm py-1 mb-2">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <hr>
+                            <div class="pt-3 text-gray-500  grid grid-cols-2 gap-4 my-auto">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                         viewBox="0 0 24 24"
+                                         stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                              d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+                                    </svg>
+                                </div>
+                                <div class="grid grid-cols-2 gap-4 my-auto">
+                                    <div class="grid grid-cols-2  my-auto">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                             viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                  d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                        </svg>
+                                        <p class="my-auto text-xs text-gray-400 font-semibold">48</p>
+                                    </div>
+                                    <div class="grid grid-cols-2  my-auto">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                                             viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                  d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+                                        </svg>
+                                        <p class="my-auto text-xs text-gray-400 font-semibold">129</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" rounded-xl shadow-lg bg-gray-50 border border-gray-200 ">
+                        <img src="https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                             class=" rounded-t-xl" alt="">
+                        <div class="p-3">
+                            <h1 class="text-lg font-semibold py-1">
+                                Featured meal
+                            </h1>
+                            <p class="text-gray-300 text-sm py-1">
+                                Served with french fries + drink
+                            </p>
+                            <p class="text-gray-500  text-sm py-1 mb-2">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <hr>
+                            <div class="pt-3 text-gray-500  grid grid-cols-2 gap-4 my-auto">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                         viewBox="0 0 24 24"
+                                         stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                              d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+                                    </svg>
+                                </div>
+                                <div class="grid grid-cols-2 gap-4 my-auto">
+                                    <div class="grid grid-cols-2  my-auto">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                             viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                  d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                        </svg>
+                                        <p class="my-auto text-xs text-gray-400 font-semibold">48</p>
+                                    </div>
+                                    <div class="grid grid-cols-2  my-auto">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                                             viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                  d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+                                        </svg>
+                                        <p class="my-auto text-xs text-gray-400 font-semibold">129</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" rounded-xl shadow-lg bg-gray-50 border border-gray-200 ">
+                        <img src="https://images.pexels.com/photos/1351238/pexels-photo-1351238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                             class=" rounded-t-xl" alt="">
+                        <div class="p-3">
+                            <h1 class="text-lg font-semibold py-1">
+                                Featured meal
+                            </h1>
+                            <p class="text-gray-300 text-sm py-1">
+                                Served with french fries + drink
+                            </p>
+                            <p class="text-gray-500  text-sm py-1 mb-2">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <hr>
+                            <div class="pt-3 text-gray-500  grid grid-cols-2 gap-4 my-auto">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                         viewBox="0 0 24 24"
+                                         stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                              d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+                                    </svg>
+                                </div>
+                                <div class="grid grid-cols-2 gap-4 my-auto">
+                                    <div class="grid grid-cols-2  my-auto">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                             viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                  d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                        </svg>
+                                        <p class="my-auto text-xs text-gray-400 font-semibold">48</p>
+                                    </div>
+                                    <div class="grid grid-cols-2  my-auto">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                                             viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                  d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+                                        </svg>
+                                        <p class="my-auto text-xs text-gray-400 font-semibold">129</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" rounded-xl shadow-lg bg-gray-50 border border-gray-200 ">
+                        <img src="https://images.pexels.com/photos/2474658/pexels-photo-2474658.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                             class=" rounded-t-xl" alt="">
+                        <div class="p-3">
+                            <h1 class="text-lg font-semibold py-1">
+                                Featured meal
+                            </h1>
+                            <p class="text-gray-300 text-sm py-1">
+                                Served with french fries + drink
+                            </p>
+                            <p class="text-gray-500  text-sm py-1 mb-2">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <hr>
+                            <div class="pt-3 text-gray-500  grid grid-cols-2 gap-4 my-auto">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                         viewBox="0 0 24 24"
+                                         stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                              d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+                                    </svg>
+                                </div>
+                                <div class="grid grid-cols-2 gap-4 my-auto">
+                                    <div class="grid grid-cols-2  my-auto">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                             viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                  d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                        </svg>
+                                        <p class="my-auto text-xs text-gray-400 font-semibold">48</p>
+                                    </div>
+                                    <div class="grid grid-cols-2  my-auto">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                                             viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                  d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+                                        </svg>
+                                        <p class="my-auto text-xs text-gray-400 font-semibold">129</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" rounded-xl  shadow-lg bg-gray-50 border border-gray-200 ">
+                        <img src="https://images.pexels.com/photos/262959/pexels-photo-262959.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                             class=" rounded-t-xl" alt="">
+                        <div class="p-3">
+                            <h1 class="text-lg font-semibold py-1">
+                                Featured meal
+                            </h1>
+                            <p class="text-gray-300 text-sm py-1">
+                                Served with french fries + drink
+                            </p>
+                            <p class="text-gray-500  text-sm py-1 mb-2">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <hr>
+                            <div class="pt-3 text-gray-500  grid grid-cols-2 gap-4 my-auto">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                         viewBox="0 0 24 24"
+                                         stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                              d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+                                    </svg>
+                                </div>
+                                <div class="grid grid-cols-2 gap-4 my-auto">
+                                    <div class="grid grid-cols-2  my-auto">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                             viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                  d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                        </svg>
+                                        <p class="my-auto text-xs text-gray-400 font-semibold">48</p>
+                                    </div>
+                                    <div class="grid grid-cols-2  my-auto">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                                             viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                  d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+                                        </svg>
+                                        <p class="my-auto text-xs text-gray-400 font-semibold">129</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" rounded-xl shadow-lg bg-gray-50 border border-gray-200 ">
+                        <img src="https://images.pexels.com/photos/1600711/pexels-photo-1600711.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                             class=" rounded-t-xl" alt="">
+                        <div class="p-3">
+                            <h1 class="text-lg font-semibold py-1">
+                                Featured meal
+                            </h1>
+                            <p class="text-gray-300 text-sm py-1">
+                                Served with french fries + drink
+                            </p>
+                            <p class="text-gray-500  text-sm py-1 mb-2">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <hr>
+                            <div class="pt-3 text-gray-500  grid grid-cols-2 gap-4 my-auto">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                         viewBox="0 0 24 24"
+                                         stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                              d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+                                    </svg>
+                                </div>
+                                <div class="grid grid-cols-2 gap-4 my-auto">
+                                    <div class="grid grid-cols-2  my-auto">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                             viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                  d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                        </svg>
+                                        <p class="my-auto text-xs text-gray-400 font-semibold">48</p>
+                                    </div>
+                                    <div class="grid grid-cols-2  my-auto">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                                             viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                  d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+                                        </svg>
+                                        <p class="my-auto text-xs text-gray-400 font-semibold">129</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" rounded-xl shadow-lg bg-gray-50 border border-gray-200 ">
+                        <img src="https://images.pexels.com/photos/4611422/pexels-photo-4611422.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                             class=" rounded-t-xl" alt="">
+                        <div class="p-3">
+                            <h1 class="text-lg font-semibold py-1">
+                                Featured meal
+                            </h1>
+                            <p class="text-gray-300 text-sm py-1">
+                                Served with french fries + drink
+                            </p>
+                            <p class="text-gray-500  text-sm py-1 mb-2">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <hr>
+                            <div class="pt-3 text-gray-500  grid grid-cols-2 gap-4 my-auto">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                         viewBox="0 0 24 24"
+                                         stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                              d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+                                    </svg>
+                                </div>
+                                <div class="grid grid-cols-2 gap-4 my-auto">
+                                    <div class="grid grid-cols-2  my-auto">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                             viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                  d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                        </svg>
+                                        <p class="my-auto text-xs text-gray-400 font-semibold">48</p>
+                                    </div>
+                                    <div class="grid grid-cols-2  my-auto">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                                             viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                  d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+                                        </svg>
+                                        <p class="my-auto text-xs text-gray-400 font-semibold">129</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" rounded-xl shadow-lg bg-gray-50 border border-gray-200 ">
+                        <img src="https://images.pexels.com/photos/7592749/pexels-photo-7592749.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                             class=" rounded-t-xl" alt="">
+                        <div class="p-3">
+                            <h1 class="text-lg font-semibold py-1">
+                                Featured meal
+                            </h1>
+                            <p class="text-gray-300 text-sm py-1">
+                                Served with french fries + drink
+                            </p>
+                            <p class="text-gray-500  text-sm py-1 mb-2">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <hr>
+                            <div class="pt-3 text-gray-500  grid grid-cols-2 gap-4 my-auto">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                         viewBox="0 0 24 24"
+                                         stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                              d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+                                    </svg>
+                                </div>
+                                <div class="grid grid-cols-2 gap-4 my-auto">
+                                    <div class="grid grid-cols-2  my-auto">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                             viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                  d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                        </svg>
+                                        <p class="my-auto text-xs text-gray-400 font-semibold">48</p>
+                                    </div>
+                                    <div class="grid grid-cols-2  my-auto">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                                             viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                  d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+                                        </svg>
+                                        <p class="my-auto text-xs text-gray-400 font-semibold">129</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class=" rounded-xl shadow-lg bg-gray-50 border border-gray-200 ">
+                        <img src="https://images.pexels.com/photos/1028714/pexels-photo-1028714.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                             class=" rounded-t-xl" alt="">
+                        <div class="p-3">
+                            <h1 class="text-lg font-semibold py-1">
+                                Featured meal
+                            </h1>
+                            <p class="text-gray-300 text-sm py-1">
+                                Served with french fries + drink
+                            </p>
+                            <p class="text-gray-500  text-sm py-1 mb-2">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <hr>
+                            <div class="pt-3 text-gray-500  grid grid-cols-2 gap-4 my-auto">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                         viewBox="0 0 24 24"
+                                         stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                              d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+                                    </svg>
+                                </div>
+                                <div class="grid grid-cols-2 gap-4 my-auto">
+                                    <div class="grid grid-cols-2  my-auto">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                             viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                  d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                        </svg>
+                                        <p class="my-auto text-xs text-gray-400  font-semibold">48</p>
+                                    </div>
+                                    <div class="grid grid-cols-2  my-auto">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                                             viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                  d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+                                        </svg>
+                                        <p class="my-auto text-xs text-gray-400  font-semibold">129</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" rounded-xl shadow-lg bg-gray-50 border border-gray-200 ">
+                        <img src="https://images.pexels.com/photos/1352270/pexels-photo-1352270.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+                             class=" rounded-t-xl" alt="">
+                        <div class="p-3">
+                            <h1 class="text-lg font-semibold py-1">
+                                Featured meal
+                            </h1>
+                            <p class="text-gray-300 text-sm py-1">
+                                Served with french fries + drink
+                            </p>
+                            <p class="text-gray-500  text-sm py-1 mb-2">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <hr>
+                            <div class="pt-3 text-gray-500  grid grid-cols-2 gap-4 my-auto">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                         viewBox="0 0 24 24"
+                                         stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                              d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+                                    </svg>
+                                </div>
+                                <div class="grid grid-cols-2 gap-4 my-auto">
+                                    <div class="grid grid-cols-2  my-auto">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                             viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                  d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                        </svg>
+                                        <p class="my-auto text-xs text-gray-400 font-semibold">48</p>
+                                    </div>
+                                    <div class="grid grid-cols-2  my-auto">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                                             viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                  d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+                                        </svg>
+                                        <p class="my-auto text-xs text-gray-400 font-semibold">129</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" rounded-xl shadow-lg bg-gray-50 border border-gray-200 ">
+                        <img src="https://images.pexels.com/photos/1291712/pexels-photo-1291712.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                             class=" rounded-t-xl" alt="">
+                        <div class="p-3">
+                            <h1 class="text-lg font-semibold py-1">
+                                Featured meal
+                            </h1>
+                            <p class="text-gray-300 text-sm py-1">
+                                Served with french fries + drink
+                            </p>
+                            <p class="text-gray-500  text-sm py-1 mb-2">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <hr>
+                            <div class="pt-3 text-gray-500  grid grid-cols-2 gap-4 my-auto">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                         viewBox="0 0 24 24"
+                                         stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                              d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+                                    </svg>
+                                </div>
+                                <div class="grid grid-cols-2 gap-4 my-auto">
+                                    <div class="grid grid-cols-2  my-auto">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                             viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                  d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                        </svg>
+                                        <p class="my-auto text-xs text-gray-400 font-semibold">48</p>
+                                    </div>
+                                    <div class="grid grid-cols-2  my-auto">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                                             viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                  d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+                                        </svg>
+                                        <p class="my-auto text-xs text-gray-400 font-semibold">129</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" rounded-xl shadow-lg bg-gray-50 border border-gray-200 ">
+                        <img src="https://images.pexels.com/photos/2176434/pexels-photo-2176434.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+                             class=" rounded-t-xl" alt="">
+                        <div class="p-3">
+                            <h1 class="text-lg font-semibold py-1">
+                                Featured meal
+                            </h1>
+                            <p class="text-gray-300 text-sm py-1">
+                                Served with french fries + drink
+                            </p>
+                            <p class="text-gray-500  text-sm py-1 mb-2">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            <hr>
+                            <div class="pt-3 text-gray-500  grid grid-cols-2 gap-4 my-auto">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                         viewBox="0 0 24 24"
+                                         stroke="currentColor">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                              d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z" />
+                                    </svg>
+                                </div>
+                                <div class="grid grid-cols-2 gap-4 my-auto">
+                                    <div class="grid grid-cols-2  my-auto">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                             viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                  d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+                                        </svg>
+                                        <p class="my-auto text-xs text-gray-400 font-semibold">48</p>
+                                    </div>
+                                    <div class="grid grid-cols-2  my-auto">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+                                             viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                  d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+                                        </svg>
+                                        <p class="my-auto text-xs text-gray-400 font-semibold">129</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- how it work -->
+        <section class="container mx-auto py-12 ">
+            <div class=" bg-blue-50 p-12  rounded">
+                <h1 class="text-3xl ">
+                    How it work
+                </h1>
+
+                <div class="grid grid-row  md:grid-cols-2 lg:grid-cols-4 py-5 px-12 gap-5">
+                    <div class="bg-gray-50 rounded-xl p-5">
+                        <div>
+                            <div
+                                 class=" w-6 h-6 rounded-3xl  bg-green-500 text-gray-50 ">
+                                <p
+                                   class="font-semibold px-2 ">
+                                    1
+                                </p>
+
+                            </div>
+                        </div>
+                        <img class="w-1/3 mx-auto" src="https://cdn-icons-png.flaticon.com/512/2921/2921855.png" alt="">
+                        <div class="mx-auto">
+                            <h1 class=" text-center mx-auto text-xl p-2 font-semibold">
+                                Pick meals
+
+                            </h1>
+                            <hr class=" w-1/2 mx-auto border-green-500">
+                            <p class="text-sm p-2 text-center">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Choose amet consectetur
+                                adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bg-gray-50 rounded-xl p-5">
+                        <div>
+                            <div
+                                 class=" w-6 h-6 rounded-3xl  bg-green-500 text-gray-50 ">
+                                <p
+                                   class="font-semibold px-2 ">
+                                    2
+                                </p>
+                            </div>
+                        </div>
+                        <img class="w-1/3 mx-auto" src="https://image.flaticon.com/icons/png/128/1147/1147832.png"
+                             alt="">
+
+                        <div class="mx-auto">
+                            <h1 class="text-center mx-auto text-xl p-2 font-semibold">
+
+                                Choose how often
+                            </h1>
+                            <hr class=" w-1/2 mx-auto  border-green-500">
+                            <p class="text-sm p-2 text-center">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Choose amet consectetur
+                                adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bg-gray-50 rounded-xl p-5">
+                        <div>
+                            <div
+                                 class=" w-6 h-6 rounded-3xl  bg-green-500 text-gray-50 ">
+                                <p
+                                   class="font-semibold px-2 ">
+                                    3
+                                </p>
+                            </div>
+                        </div>
+                        <img class="w-1/3 mx-auto" src="https://image.flaticon.com/icons/png/128/3163/3163478.png"
+                             alt="">
+
+                        <div class="mx-auto">
+                            <h1 class="text-center mx-auto text-xl p-2 font-semibold">
+                                Fast deliveries
+
+                            </h1>
+                            <hr class=" w-1/2 mx-auto  border-green-500">
+                            <p class="text-sm p-2 text-center">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Choose amet consectetur
+                                adipisicing elit.
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="bg-gray-50 rounded-xl p-5">
+                        <div>
+                            <div
+                                 class=" w-6 h-6 rounded-3xl  bg-green-500 text-gray-50 ">
+                                <p
+                                   class="font-semibold px-2 ">
+                                    4
+                                </p>
+                            </div>
+                        </div>
+                        <img class="w-1/3 mx-auto" src="https://cdn-icons-png.flaticon.com/512/5589/5589664.png" alt="">
+                        <div class="mx-auto">
+                            <h1 class="text-center mx-auto text-xl p-2 font-semibold">
+                                Tasty meals
+
+                            </h1>
+                            <hr class=" w-1/2 mx-auto border-green-500">
+                            <p class="text-sm p-2 text-center">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Choose amet consectetur
+                                adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- download section -->
+        <section>
+            <div class="lg:flex">
+                <div class="w-full lg:w-1/3"">
+                    <h1 class=" ml-24 pt-12 text-4xl">
+                    Better Experiences with Mobile App
+                    </h1>
+                    <p class="py-5 ml-24 mb-8 text-gray-400 text-sm">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ex, reiciendis nam ullam
+                        reprehenderit labore, debitis saepe ad, culpa totam minima autem odit similique ratione optio.
+                    </p>
+                    <a href="#"
+                       class="ml-24   bg-green-500 hover:bg-green-700 rounded-3xl font-semibold py-3 px-6 text-gray-50">Download
+                        on
+                        the
+                        App
+                        Store</a>
+                </div>
+                <div class=" w-full mt-12 lg:mt-0 lg:w-2/3">
+                    <img class="w-full" src="./miFood.png" alt="">
+                </div>
+
+            </div>
+        </section>
+        <!-- Get free coupen card  -->
+        <section>
+            <div class=" ">
+                <div class=" bg-green-400  h-full pb-12  text-center" style="
+                clip-path:circle(90% at 49% -50%);">
+
+                    <div class=" py-3 lg:py-6 mx-auto">
+                        <h1 class="text-5xl text-gray-50 py-5 font-bold text-center">
+                            Get Free Coupon Now
+                        </h1>
+                        <p class="text-sm w-1/2 mx-auto text-gray-100 text-center py-2 lg:py-5">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi cum sapiente
+                            reprehenderit
+                            assumenda cumque tempore fuga.adipisicing elit. Nisi cum sapiente reprehenderit
+                            assumenda cumque tempore fuga.
+                        </p>
+                    </div>
+                    <div class="w-2/3 mx-auto  mb-12 grid grid-row lg:grid-cols-3 gap-4">
+                        <input type="email" class="bg-gray-50 rounded-3xl px-5  hover:shadow-lg "
+                               placeholder="Your email ">
+                        <input type="text" class="bg-gray-50 rounded-3xl px-5 hover:shadow-lg "
+                               placeholder="Your name ">
+                        <a href="#"
+                           class=" lg:ml-24 text-center  bg-gray-900  hover:shadow-lg rounded-3xl font-semibold py-2 lg:py-3 px-6 text-gray-50">
+                            Subscribe now</a>
+                    </div>
+                    <div class="w-full h-1/2">.
+                        <img class="w-3/5 mx-auto invisible lg:block" style=" border-radius: 30px; "
+                             src="https://images.pexels.com/photos/1414131/pexels-photo-1414131.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                             alt="">
+                    </div>
+
+                </div>
+                <div style="position: relative;">
+                    <img class="w-3/5 mx-auto shadow-lg"
+                         style="top: 50%;
+                         left: 50%;
+                         transform: translate(-50%,-50%); border-radius: 30px; z-index: 10; margin-top:-300px;  position: absolute; "
+                         src="https://images.pexels.com/photos/1414131/pexels-photo-1414131.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                         alt="">
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- This month's chefs  -->
+        <section>
+            <div class="container mx-auto ">
+                <h1 class="text-3xl p-12 font-semibold">
+                    This month's chefs
+                </h1>
+                <div class="  mx-12 grid grid-cols-2 lg:grid-cols-4 gap-5">
+                    <div>
+                        <div>
+                            <div class="p-3 flex">
+                                <div class="w-1/3">
+                                    <img class="rounded-full p-2"
+                                         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoJmrvWaNmVk6aIb88bOXyUbarMlIbprpdCw&usqp=CAU"
+                                         alt="">
+                                </div>
+                                <div class="my-auto w-2/3">
+                                    <h1 class="text-lg font-semibold">
+                                        Dennis Montgomery
+                                    </h1>
+                                    <p class="text-gray-400 font-semibold text-sm">
+                                        Food Bloger
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <img class="p-2 w-1/3"
+                                 src="https://images.pexels.com/photos/434258/pexels-photo-434258.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                 alt="">
+                            <img class="p-2 w-1/3"
+                                 src="https://images.pexels.com/photos/8753672/pexels-photo-8753672.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                 alt="">
+
+                            <img class="p-2 w-1/3"
+                                 src="https://images.pexels.com/photos/5706426/pexels-photo-5706426.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                 alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <div class="p-3 flex">
+                                <div class="w-1/3">
+                                    <img class="rounded-full p-2"
+                                         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN3-b6hE_5K-l4bv_gBuFtF5zWoPEhSkLsuw&usqp=CAU"
+                                         alt="">
+                                </div>
+                                <div class="my-auto w-2/3">
+                                    <h1 class="text-lg font-semibold">
+                                        Haris rack
+                                    </h1>
+                                    <p class="text-gray-400 font-semibold text-sm">
+                                        Food Bloger
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <img class="p-2 w-1/3"
+                                 src="https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                 alt="">
+                            <img class="p-2 w-1/3"
+                                 src="https://images.pexels.com/photos/2474658/pexels-photo-2474658.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                 alt="">
+
+                            <img class="p-2 w-1/3"
+                                 src="https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                 alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <div class="p-3 flex">
+                                <div class="w-1/3">
+                                    <img class="rounded-full p-2"
+                                         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3i_qZtrjSgoPCyIOywhlX8MKOzRIaQbKU0A&usqp=CAU"
+                                         alt="">
+                                </div>
+                                <div class="my-auto w-2/3">
+                                    <h1 class="text-lg font-semibold">
+                                        Bontgomery
+                                    </h1>
+                                    <p class="text-gray-400 font-semibold text-sm">
+                                        Food Bloger
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <img class="p-2 w-1/3"
+                                 src="https://images.pexels.com/photos/1051399/pexels-photo-1051399.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                 alt="">
+                            <img class="p-2 w-1/3"
+                                 src="https://images.pexels.com/photos/209540/pexels-photo-209540.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                 alt="">
+
+                            <img class="p-2 w-1/3"
+                                 src="https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                 alt="">
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <div class="p-3 flex">
+                                <div class="w-1/3">
+                                    <img class="rounded-full p-2"
+                                         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLQJ8S0CMZUenvF4OfC4D1QBgVFJrgS1UggQ&usqp=CAU"
+                                         alt="">
+                                </div>
+                                <div class="my-auto w-2/3">
+                                    <h1 class="text-lg font-semibold">
+                                        Harni bosker
+                                    </h1>
+                                    <p class="text-gray-400 font-semibold text-sm">
+                                        Food Bloger
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <img class="p-2 w-1/3"
+                                 src="https://images.pexels.com/photos/4871174/pexels-photo-4871174.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                 alt="">
+                            <img class="p-2 w-1/3"
+                                 src="https://images.pexels.com/photos/6164196/pexels-photo-6164196.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                 alt="">
+
+                            <img class="p-2 w-1/3"
+                                 src="https://images.pexels.com/photos/6836097/pexels-photo-6836097.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                                 alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- fooder  -->
+        <section class="bg-gray-100 mt-12">
+            <div class="container mx-auto p-12">
+                <div class="grid px-12 grid-row md:grid-cols-2 lg:grid-cols-4 gap-5">
+                    <div class="p-2">
+                        <h1 class="text-lg font-semibold">
+                            Company
+                        </h1>
+                        <hr class="w-1/3 p-2 text-gray-500 ">
+                        <ul class="list-none">
+                            <li class="text-gray-500 p-1 text-sm">About</li>
+                            <li class="text-gray-500 p-1 text-sm">Press</li>
+                            <li class="text-gray-500 p-1 text-sm">Blog</li>
+                            <li class="text-gray-500 p-1 text-sm">Careers</li>
+                            <li class="text-gray-500 p-1 text-sm">Security</li>
+                            <li class="text-gray-500 p-1 text-sm">Driver Centre</li>
+                        </ul>
+
+
+                    </div>
+                    <div class="p-2">
+                        <h1 class="text-lg font-semibold">
+                            Information
+                        </h1>
+                        <hr class="w-1/3 p-2 text-gray-500 ">
+                        <ul class="list-none">
+                            <li class="text-gray-500 p-1 text-sm">Our Story</li>
+                            <li class="text-gray-500 p-1 text-sm">Recipes</li>
+                            <li class="text-gray-500 p-1 text-sm">Nutrition</li>
+                            <li class="text-gray-500 p-1 text-sm">Resources</li>
+                            <li class="text-gray-500 p-1 text-sm">Newsletter</li>
+                            <li class="text-gray-500 p-1 text-sm">Contact</li>
+                        </ul>
+
+
+                    </div>
+                    <div class="p-2">
+                        <h1 class="text-lg font-semibold">
+                            Information
+                        </h1>
+                        <hr class="w-1/3 p-2 text-gray-500 ">
+                        <ul class="list-none">
+                            <li class="text-gray-500 p-1 text-sm">Customer service</li>
+                            <li class="text-gray-500 p-1 text-sm">Recommend a restaruant</li>
+                            <li class="text-gray-500 p-1 text-sm">Signup a restaruant</li>
+                            <li class="text-gray-500 p-1 text-sm">Jobs </li>
+                            <li class="text-gray-500 p-1 text-sm">Press</li>
+                            <li class="text-gray-500 p-1 text-sm">Terms of use</li>
+                        </ul>
+
+
+                    </div>
+                    <div class="p-2">
+                        <h1 class="text-lg font-semibold">
+                            Subscribe Now
+                        </h1>
+                        <hr class="w-1/3 p-2 text-gray-500 ">
+                        <div>
+                            <div class="grid grid-row gap-4">
+
+                                <input type="text" class="bg-gray-50 my-2 rounded-3xl px-3 
+                                    py-3"
+                                       placeholder="Your email">
+
+                                <a href="#"
+                                   class="bg-green-500 rounded-full  py-3 px-12 text-center  hover:bg-green-700 text-gray-50 font-semibold text-lg">
+                                    Subscribe now
+                                </a>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="p-3">
+                <h1 class="text-xm text-gray-400 px-24">
+                    &#169 roginth_b @ 2021
+                </h1>
+            </div>
+        </section>
+    </body>
+
+</html>
